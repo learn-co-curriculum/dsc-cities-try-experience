@@ -1,7 +1,6 @@
 # Top travel cities
-***
 
-## Introduction to lists  
+## Expoloring Lists with Travel Cities  
 
 ***
 

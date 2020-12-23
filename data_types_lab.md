@@ -1,4 +1,6 @@
-# Data types lab
+# Data Types
+
+## Python Data Types - Lab
 
 ***
 

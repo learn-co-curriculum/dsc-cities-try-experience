@@ -1,7 +1,11 @@
 # Accessing Single Items in a List
+
+## Indexing
+
 ***
 
 ## Objectives for this lesson
+
 ***
 
 * Access elements of a `list`
@@ -17,6 +21,10 @@ Now our `top_travel_cities` list contains multiple elements. When we write list 
 1. Solta
 2. Greenville
 3. Buenos Aires
+
+## Indexing - from the beginning
+
+***
 
 Much like we would keep the list ordered, Python also assigns a number to each element. This number is called an **index**.  This number is like the element's address within the list and the index represents the distance from the beginning.  The index begins at the first item and continues through the list in numerical order.  Unlike the way you may start to number a list with the number "1", in Python, the index begins with zero because the item is "0" spaces from the beginning. 
 Lets take a look at how you would use the index if you wanted to reference a single item in the list, `top_travel_cities`. We would first reference the list we are working with, and then using the brackets to access a specific element of our list with the index of the item in the list. Below is how we would reference the first element which has the index of `0`.
@@ -36,6 +44,9 @@ If we wanted to reference the 4th element in this list, `Los Cabos` we would do 
 ```python
 top_travel_cities[3]
 ```
+## Indexing - from the end
+
+***
 
 Great, now we know how to access one item in the list using it's index, but how would we access the last element? What about the third from the last element?   Well, we could count all of the elements in the list, and in our list `Pyeongchang` would just be one less than that.  In Python we tell the computer to start at the end by using a negative index and python will move the number of spaces from the end that you give it.  For example, to access the last element you simply use the index `[-1]` in our list to access `'Pyeongchang'` like this:
 
@@ -62,5 +73,5 @@ top_canadian_city = top_travel_cities[-2]
 
 ***
 
-Awesome!! Now that we know how to access the individual items in our list, lets practice using the index.
+Awesome!! Now that we know how to access the individual items in our list using indexing from both the beginning of a list and from the end, let's practice using the index to access our top travel cities.
 

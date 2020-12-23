@@ -1,4 +1,7 @@
+# Data Types
+
 ## Python Data Types
+
 ***
 
 Objectives

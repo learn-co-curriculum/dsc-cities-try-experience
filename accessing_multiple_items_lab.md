@@ -1,5 +1,9 @@
 # Accessing Multiple Items in a List  - Lab
 
+## Slicing
+
+***
+
 ## Objectives for this lesson
 
 ***
@@ -24,4 +28,29 @@ top_travel_cities[3:7]
 >**Level up** - try choosing some slices of your own.  Think about what cities you would like to get and write the code to select just those cities.
 
 <iframe frameborder="0" width="100%" height="800" src="https://repl.it/@DSExperience/CitiesTry4?lite=true"></iframe>
+
+
+## Making slicing work
+
+***
+
+In this section we will slice the original list into separate lists according to some additional criteria.  We have added the country for each city so we can group them according to their continents.  In the code console below, use slicing to create lists and set them equal to the appropriate variables as shown in the cell below:
+
+```python
+south_america = ['Buenos Aires, Argentina', 'Iguazu Falls, Argentina', 'Los Cabos, Mexico']
+north_america = ['Walla Walla Valley, Washington', 'Albuquerque, New Mexico', 'Greenville, South Carolina', 'Toronto, Canada']
+not_a_city = [ 'Archipelago Sea']
+europe = ['Salina Island, Sicily', 'Solta, Croatia']
+asia = ['Marakesh, Morocco', 'Pyeongchang, South Korea']
+```
+
+<iframe frameborder="0" width="100%" height="800" src="https://repl.it/@DSExperience/CitiesTry5?lite=true"></iframe>
+
+
+## Recap
+
+***
+
+We now have a good understanding of the basics of a list and how to access the items in it, let's look deeper into how to manipulate a list by adding, removing and changing the items.
+
 

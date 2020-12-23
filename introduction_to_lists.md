@@ -1,7 +1,11 @@
 # Introduction to lists
+
+## The **list** `list` data type
+
 ***
 
 ## Objectives for this lesson
+
 ***
 
 * Create a `list`

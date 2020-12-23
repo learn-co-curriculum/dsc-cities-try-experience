@@ -1,5 +1,9 @@
 # Accessing Multiple Elements
 
+## Slicing
+
+***
+
 ## Objectives of this lesson
 
 ***

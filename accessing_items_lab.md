@@ -1,6 +1,10 @@
 
 # Accessing Single Items in a List  - Lab
 
+## Indexing
+
+***
+
 ## Objectives for this lesson
 
 ***
