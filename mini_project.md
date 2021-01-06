@@ -43,7 +43,7 @@ In this list of cities, we can see that each city has a little information about
 ```python
 ['Oaxaca', 'Mexico', '17.021886', '-96.784615']
 ```
-We can iterate through the list with a for loop to get each city's information into a list and each list will have an index corresponding to its rank in the top 20.
+We can iterate through the list with a for loop to get each city's information into a list and each list will have an index corresponding to its rank in the top 25.
 
 ```python
 palermo = None
