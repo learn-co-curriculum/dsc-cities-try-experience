@@ -1,8 +1,4 @@
-# Data Types
-
-## Python Data Types - Lab
-
-***
+# Python Data Types - Lab
 
 ## Objectives for this lesson
 
@@ -12,6 +8,18 @@
 * Use the `type()` function
 
 Now that we have learned about the different types of data and how to check what type of data we are working with, let's take this chance to practice using this new knowledge.
+
+## Interactive code console
+
+***
+
+Throughou, you will use these to practice writing the code you will learn in this module. This code console allows you to write and run code so you can see the results for yourself. To use the console, you'll first need to **initialize the console by clicking the green arrow**, indicated by the arrow in the illustration below. Once you have initialized the code console, you will be able to view the provided code as well as type any commands or code at the prompt as instructed in the material. 
+
+<p style='text-align:center;'>
+<img src='https://learn-co-curriculum.github.io/dsc-song-analysis-try-experience/replit_sample.png' width='75%'></p>
+
+<p style='text-align:center;'>
+<img src='https://learn-co-curriculum.github.io/dsc-song-analysis-try-experience/replit_prompt.png' width='75%'></p>
 
 ## Try it out
 

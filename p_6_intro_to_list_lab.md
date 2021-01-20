@@ -1,8 +1,4 @@
-# Introduction to Lists Lab
-
-## The **list** `list` data type - Lab
-
-***
+# The `list` data type - Lab
 
 ## Objectives for this lesson
 

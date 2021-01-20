@@ -1,6 +1,4 @@
-# Introduction to lists
-
-## The **list** `list` data type
+# The `list` data type
 
 ***
 
