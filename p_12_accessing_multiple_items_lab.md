@@ -1,9 +1,5 @@
 # Accessing Multiple Items in a List  - Lab
 
-## Slicing
-
-***
-
 ## Objectives for this lesson
 
 ***
@@ -18,12 +14,12 @@ In this lesson we will practice slicing elements of a list.  In the code console
 
 ***
 
-In the code console below, type in the code below to see the result of the slice it returns.
+In the code console below, type in the code below to see the result of the slice.
 
 ```python
-top_travel_cities[0:3]
+print(top_travel_cities[0:3])
 
-top_travel_cities[3:7]
+print(top_travel_cities[3:7])
 ```
 >**Level up** - try choosing some slices of your own.  Think about what cities you would like to get and write the code to select just those cities.
 

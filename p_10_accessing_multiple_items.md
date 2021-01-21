@@ -1,21 +1,17 @@
 # Accessing Multiple Elements
 
-## Slicing
-
-***
-
 ## Objectives of this lesson
 
 ***
 
 * Access multiple items of a list
-* 
+* Slicing with indicies
 
 ## Slicing - **Start**
 
 ***
 
-Now imagine that we don't want to access just one element of a list, but multiple elements at once.  Python allows us to do that as well.  To  do this, instead of passing a single number for the index, we pass a range of indices.  So if we wanted to select the first two elements in our list, `'Solta', 'Greenville'`, we would do it like this:
+Imagine that we don't want to access just one element of a list, instead, multiple elements at once as a block.  Python allows us to do that as well.  To  do this, instead of passing a single number for the index, we pass a range of indices.  So if we wanted to select the first two elements in our list, `'Solta', 'Greenville'`, we would do it like this:
 
 ```python
 top_travel_cities[0:2]
@@ -46,7 +42,7 @@ Ok, so from this example, it is aparent that second number is not representing t
 top_travel_cities[4:6]
 ```
 
-This operation is called `slice`.  So, we can say we are `slicing` the elements with indices 4 and 5 in the line above.  Note that even though we are `slicing` elements, our list remains intact, it does not affect the original list at all.
+A selection of elements using a range of indices is called a `slice`.  So, we can say we are `slicing` the elements with indices 4 and 5 in the line above.  Note that even though we are `slicing` elements, our list remains intact, it does not affect the original list at all.
 
 In programming terms, we would say that slicing elements is non-destructive, because it does not change the underlying data structure.  We can do it as many times as we like, and our `top_travel_cities` list remains unchanged.  If we want to store that slice of elements, we would need to store it in another variable. For example, if we wanted to store `'Solta', 'Greenville'` as the variable `top_two` we would do it like this:
 

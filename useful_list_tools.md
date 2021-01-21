@@ -1,9 +1,5 @@
 # Useful List Tools
 
-## More list tools
-
-***
-
 ## Objectives for this lesson
 
 ***

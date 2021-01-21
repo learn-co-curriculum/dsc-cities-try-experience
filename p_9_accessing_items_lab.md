@@ -1,15 +1,11 @@
 
 # Accessing Single Items in a List  - Lab
 
-## Indexing
-
-***
-
 ## Objectives for this lesson
 
 ***
 
-* Practice selecting individual items from a list using the index
+* Select individual items from a list using the index
 * Index from the beginning
 * Index from the end
 

@@ -1,10 +1,4 @@
-# Manipulating Lists
-
-## Adding and removing elements
-
-***
-
-We have been working with a list of popular travel destinations and with this list we have been using non-destructive methods to access and slice data.  As you can imagine, the popular travel destinations change frequently, so in this lesson we will explore the ways you can change the elements in your list with some destructive methods.  These methods are considered destructive because they will alter the original data list we created, unlike the mnethods we learned earlier which allow the data list to remain intact.
+# Adding and removing elements - lab
 
 ## Objectives for this lesson
 
@@ -22,11 +16,7 @@ top_travel_cities = ['Buenos Aires, Argentina', 'Iguazu Falls,Argentina', 'Los C
 
 ***
 
-If we take a close look at the list we will see that it doesn't have the destination that we talked about adding in the previous lesson, `'Wuhan, China'`.  Using the `.append()` method, let's add this destination to our list `top_travel_cities`.  To do this we will need to enter the following code into the code console below:
-
-```python
-top_travel_cities.append('Wuhan, China')
-```
+If we take a close look at the list we will see that it doesn't have the destination that we talked about adding in the previous lesson, `'Wuhan, China'`.  Using the `.append()` method, let's add this destination to our list `top_travel_cities`.  
 
 ## Try it out
 
@@ -43,11 +33,7 @@ Great!! Now that we can see how to add elements to our list, lets take a look at
 
 ***
 
-In this section we will be working with the following list, it is similar to our previous list, but when we tried to add the new destination, `'Wuhan, China'` we mistakenly added it twice.  Let's use the `.pop()` method to remove it.  The code we will input to do this looks like this:
-
-```python
-top_travel_cities.append('Wuhan, China')
-```
+In this section we will be working with a similar list, it has one difference from our previous list, when we tried to add the new destination, `'Wuhan, China'` we mistakenly added it twice.  Let's use the `.pop()` method to remove it.
 
 ## Try it out
 
@@ -57,5 +43,9 @@ In the code console below, we have loaded the list referenced above with the dup
 >**Level up** - type your own list as you did before, and practice removing items from it using the `.pop()` method.  Also, try removing a specific item from our list using the index as an argument with the `.pop()` method.  Remember, you can find the index of an item by passing the item as an argument to the `.index()` method.
 
 <iframe frameborder="0" width="100%" height="700" src="https://repl.it/@DSExperience/CitiesTry6?lite=true"></iframe>
+
+## Recap
+
+***
 
 Good, now we are able to add and remove items from our list in the event we need to update it.  Let's take a look at some other tools that are helpful when working with lists.

@@ -1,11 +1,5 @@
 # Manipulating Lists
 
-## Adding and removing elements
-
-***
-
-We have been working with a list of popular travel destinations and with this list we have been using non-destructive methods to access and slice data.  As you can imagine, the popular travel destinations change frequently, so in this lesson we will explore the ways you can change the elements in your list with some destructive methods.  These methods are considered destructive because they will alter the original data list we created, unlike the mnethods we learned earlier which allow the data list to remain intact.
-
 ## Objectives for this lesson
 
 ***
@@ -13,11 +7,17 @@ We have been working with a list of popular travel destinations and with this li
 * Add elements with `.append()`
 * Remove elements with `.pop()`
 
+## Adding and removing elements
+
+***
+
+We have been working with a list of popular travel destinations and with this list we have been using non-destructive methods to access and slice data.  As you can imagine, the popular travel destinations change frequently, so in this lesson we will explore the ways you can change the elements in your list with some destructive methods.  These methods are considered destructive because they will alter the original data list we created, unlike the mnethods we learned earlier which allow the data list to remain intact.
+
 ## Adding elements with the `.append()` method
 
 ***
 
-Our list is quite short, and there is a lot of room for us to expand the list so we can include other destinations.  In our case we want to add a new destination city in Asia, `Wuhan, China`.  The method we will use to add this destination to our list of `top_travel_cities`.  To add this destination to our list, we will use the `.append()` method.  To use this method, we first refer to our list `top_travel_cities` and we apply the method using the "dot" notation and then we will need to pass the element we wish to add to the list as an argument to the method.  When it is all put together, it looks like this:
+Our list is quite short, and there is a lot of room for us to expand the list so we can include other destinations.  In our case we want to add a new destination city in Asia, `Wuhan, China`.  The method we will use to add this destination to our list of `top_travel_cities`.  To add this destination to our list, we will use the `.append()` method.  To use this method, we first reference our list `top_travel_cities` and we apply the method using the "dot" notation and then we will need to pass the element we wish to add to the list as an argument to the method.  When it is all put together, it looks like this:
 
 ```python
 top_travel_cities.append('Wuhan, China')
@@ -27,14 +27,15 @@ After we run this line of code, our list will look like this:
 ```python
 ['Buenos Aires, Argentina', 'Iguazu Falls,Argentina', 'Los Cabos, Mexico', 'Walla Walla Valley, Washington', 'Albuquerque, New Mexico', 'Greenville, South Carolina', 'Toronto, Canada', 'Archipelago Sea', 'Salina Island, Sicily', 'Solta, Croatia', 'Marakesh, Morocco', 'Pyeongchang, South Korea', 'Wuhan, China']
 ```
-As you can see, the list has been altered, and now the last element is the item we appended to the list, `Wuhan, China`.  What if you mistakenly ran the line of code twice and you noticed that the destination was added twice, you now find yourself in need of removing the last item in the list. Let's take a look at how we would do this with another built in Python method.
+As you can see, the list has been altered, and now the last element is the item we appended to the list, `Wuhan, China`.  
+
+What if you mistakenly ran the line of code twice and you noticed that the destination was added twice, you now find yourself in need of removing the last item in the list. Let's take a look at how we would do this with another built-in Python method.
 
 ## Removing elements with the `.pop()` method
 
 ***
 
-
-Removing an element from a list is very similar to adding, we will just be usinf another of Python's built in methods.  The method we will use is the `.pop()` method.remove an element from a list.  In Python we remove an item from a list using the `.pop()` function. Unlike the `append()` method, this function needs no arguments, its default is to remove the last item in the list. For example, if we wanted to remove the last city, `Pyeongchang, South Korea`, from our list, we would use the following code:
+Removing an element from a list is very similar to adding, we will just be usinf another of Python's built-in methods.  The method we will use is the `.pop()` method.remove an element from a list.  In Python we remove an item from a list using the `.pop()` function. Unlike the `append()` method, this function needs no arguments, its default is to remove the last item in the list. For example, if we wanted to remove the last city, `Pyeongchang, South Korea`, from our list, we would use the following code:
 
 ```python
 top_travel_cities.pop()
