@@ -4,7 +4,7 @@
 
 ***
 
-Now that we have learned a little about lists, we can take a moment to test our understanding. Use what you have learned to answer the questions below.  If you are having difficulty selecting the correct answer, try going back and reviewing the previous lesson.
+Now that you have learned a little about lists, let's take a moment to test your understanding. Use what you have learned to answer the questions below.  If you are having difficulties selecting the correct answer, try going back and reviewing the previous lesson.
 
 
 ### Question 1 - 
