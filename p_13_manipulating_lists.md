@@ -11,15 +11,15 @@
 
 ***
 
-We have been working with a list of popular travel destinations and with this list we have been using non-destructive methods to access and slice data.  As you can imagine, the popular travel destinations change frequently, so in this lesson we will explore the ways we can change the elements in our list.  
+Until now, you've been working with a list of popular travel destinations and with this list you have been using non-destructive methods to access and slice data. As you can imagine, the popular travel destinations change frequently, so in this lesson, you'll be exploring ways you can change the elements in your list.  
 
-The methods we have been using up to this point are known as non-destructive methods because these methods do not change the original data.  In this lesson we will explore some destructive methods and look at how they change our original data.
+The methods you have been using up to this point are known as non-destructive methods because these methods do not change the original data.  In this lesson we will explore some destructive methods and look at how they change the original data.
 
 ## Adding elements with the `.append()` method
 
 ***
 
-Our list of `top_travel_cities` is quite short, and there is a lot of room for us to expand the list so we can include other destinations.  In our case we want to add a new destination city in Asia, `Wuhan, China`.  The method we will use to add this destination to our list of `top_travel_cities`.  To add this destination to our list, we will use the `.append()` method.  To use this method, we first reference our list `top_travel_cities` and we apply the method using the "dot" notation and then we will need to pass the element we wish to add to the list as an argument to the method.  When it is all put together, the code looks like this:
+The `top_travel_cities` list is quite short, and there is a lot of room for us to expand the list so we can include other destinations.  In our case, we want to add a new destination city in Asia, `Wuhan, China`. To add this destination to our list, we will use the `.append()` method.  To use this method, you need to first reference your list `top_travel_cities`, apply the method using the so-called "dot notation" and then pass the element you wish to add to the list as an argument to the method.  When it's all put together, the code looks like this:
 
 ```python
 top_travel_cities.append('Wuhan, China')
@@ -29,9 +29,9 @@ After we run this line of code, our list will look like this:
 ```python
 ['Buenos Aires, Argentina', 'Iguazu Falls,Argentina', 'Los Cabos, Mexico', 'Walla Walla Valley, Washington', 'Albuquerque, New Mexico', 'Greenville, South Carolina', 'Toronto, Canada', 'Archipelago Sea', 'Salina Island, Sicily', 'Solta, Croatia', 'Marakesh, Morocco', 'Pyeongchang, South Korea', 'Wuhan, China']
 ```
-As you can see, the list has been altered, and now the last element is the item we appended to the list, `Wuhan, China`.  
+As you can see, the list has been altered, and now the last element is the item that was appended to the list, `Wuhan, China`.  
 
-What if you mistakenly ran the line of code twice and we noticed that the destination was added twice? We would now find ourselves# Slicing - Lab
+What if you mistakenly ran the line of code twice and you noticed that the destination was added twice? We would now find ourselves Slicing - Lab
 
 ## Objectives for this lesson
 

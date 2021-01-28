@@ -4,7 +4,7 @@
 
 ***
 
-Now that we have dug into accessing individual items in a list, use what yoy have learned and answer the questions below.  If you are having trouble with any of these questions, try reviewing the previous lesson.
+Now that you have dug into accessing individual items in a list, use what yoy have learned and answer the questions below.  If you are having trouble with any of these questions, try reviewing the previous lesson.
 
 ### Question 1 -
 ***
