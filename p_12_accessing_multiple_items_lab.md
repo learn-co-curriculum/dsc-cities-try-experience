@@ -1,4 +1,4 @@
-# Accessing Multiple Items in a List  - Lab
+# Slicing - Lab
 
 ## Objectives for this lesson
 
@@ -8,13 +8,17 @@
 * Select multiple items with slicing
 * Create a new list from a slice of the original list
 
-In this lesson we will practice slicing elements of a list.  In the code console below, we have loaded the list `top_travel_cities` for you.  We will use slicing to select the the desired sections of the list in the instructions below.
+## Slicing
+
+***
+
+In this lesson we will practice slicing elements of a list.  In the code console below, we have loaded the list `top_travel_cities` for you.  We will use slicing to select the the desired sections of the list as described in the instructions below.
 
 ## Try it out
 
 ***
 
-In the code console below, type in the code below to see the result of the slice.
+In the code console below, type in the folowing code to see the result of the slice.
 
 ```python
 print(top_travel_cities[0:3])
@@ -30,7 +34,9 @@ print(top_travel_cities[3:7])
 
 ***
 
-In this section we will slice the original list into separate lists according to some additional criteria.  We have added the country for each city so we can group them according to their continents.  In the code console below, use slicing to create lists and set them equal to the appropriate variables as shown in the cell below:
+In this section we will slice the original list into separate lists according to some additional criteria.  We have added the country for each city so we can group them according to their continents.  
+
+In the code console below, use slicing to create lists and set them equal to the appropriate variables as shown in the cell below:
 
 ```python
 south_america = ['Buenos Aires, Argentina', 'Iguazu Falls, Argentina', 'Los Cabos, Mexico']

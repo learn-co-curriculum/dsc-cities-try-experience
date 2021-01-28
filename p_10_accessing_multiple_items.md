@@ -11,7 +11,9 @@
 
 ***
 
-Imagine that we don't want to access just one element of a list, instead, multiple elements at once as a block.  Python allows us to do that as well.  To  do this, instead of passing a single number for the index, we pass a range of indices.  So if we wanted to select the first two elements in our list, `'Solta', 'Greenville'`, we would do it like this:
+Imagine that we don't want to access just one element of a list, instead, we want to select multiple elements at once as a block, Python allows us to do that as well. 
+
+To do this, instead of passing a single number for the index, we pass a range of indices.  If we wanted to select the first two elements in our list, `'Solta', 'Greenville'`, we would do it like this:
 
 ```python
 top_travel_cities[0:2]
@@ -29,22 +31,24 @@ From this first example, it is difficult to know if the second number represents
 ['Solta', 'Greenville', 'Buenos Aires', 'Los Cabos', 'Walla Walla Valley', 'Marakesh', 'Albuquerque', 'Archipelago Sea', 'Iguazu Falls', 'Salina Island', 'Toronto', 'Pyeongchang']
 ```
 
-Let's take a look at a different slice and see how we would slice out one element from the list.  If we wanted to slice one item, like `'Walla Walla Valley'` we would do it like this:
-
-```python
-top_travel_cities[4:5]
-```
-
-Ok, so from this example, it is aparent that second number is not representing the number of elements we want returned.  Instead it must be the index at which we **stop** our selection of elements. In this case, we would say that the **stop** index id non-inclusive. So if we wanted to slice out elements 4 and 5, `'Walla Walla Valley', 'Marakesh'` we would want to **start** before `4` and **stop** before `6`, so we would code it like this:
-
+Let's take a look at a different slice and see how we would slice out two elements from the somewhere in the list.  If we wanted to slice two items, like `'Walla Walla Valley', 'Marakesh'` we would do it like this:
 
 ```python
 top_travel_cities[4:6]
 ```
 
-A selection of elements using a range of indices is called a `slice`.  So, we can say we are `slicing` the elements with indices 4 and 5 in the line above.  Note that even though we are `slicing` elements, our list remains intact, it does not affect the original list at all.
+Ok, so from this example, it is aparent that second number is not representing the number of elements we want returned.  Instead it must be the index at which we **stop** our selection of elements. In this case, we would say that the **stop** index is non-inclusive. So if we wanted to slice out elements 4 through 6, `'Walla Walla Valley', 'Marakesh', 'Albuquerque'` we would want to **start** before `4` and **stop** before `7`, so we would code it like this:
 
-In programming terms, we would say that slicing elements is non-destructive, because it does not change the underlying data structure.  We can do it as many times as we like, and our `top_travel_cities` list remains unchanged.  If we want to store that slice of elements, we would need to store it in another variable. For example, if we wanted to store `'Solta', 'Greenville'` as the variable `top_two` we would do it like this:
+
+```python
+top_travel_cities[4:7]
+```
+
+A selection of elements using a range of indices is called a `slice`.  So, we can say we are `slicing` the elements with indices 4, 5 and 6 in the code above.  Note that even though we are `slicing` elements, our list remains intact, it does not affect the original list at all.
+
+In programming terms, we would say that slicing elements is non-destructive, because it does not change the underlying data structure.  We can do it as many times as we like, and our `top_travel_cities` list remains unchanged.  
+
+If we want to store that slice of elements, we would need to store it in another variable. For example, if we wanted to store `'Solta', 'Greenville'` as the variable `top_two` we would code it like this:
 
 ```python
 top_two = top_travel_cities[0:2]

@@ -6,20 +6,12 @@
 
 * In this lab, we will practice what we have learned about lists using an interactive code console.
 
-## Interactive code console
-
-***
-
->Throughout this module in sections titled **Try it out**, you will encounter interactive code consoles that allow you to run Python code. **Click the green arrow at the top of a console window to initialize it** as shown below.  Then you can run the pre-written code or practice writing any code you want and see the result. Some of the consoles will have code pre-written for you, while others will ask you to write your own code.
-
-<p style='text-align:center;'>
-<img src='https://learn-co-curriculum.github.io/dsc-song-analysis-try-experience/replit_sample.png' width='75%'></p>
-
 ## Try it out
 
 ***
 
 In the code console below, we have declared a variable, `top_travel_cities` and set it equal to a list of the top travel cities. Try typing the variable name so you can see the output.  
+- <p>Remember to click the <mark style="color:green; background:none; font-weight:bold">green</mark> arrow to initialize the console.</p> 
 > **Level up:** Try creating your own list.  create a list of names or places and assign them to a variable.
 
 

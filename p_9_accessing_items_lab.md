@@ -13,7 +13,7 @@
 
 ***
 
-In this lesson, we will practice using the index of list elements using the index from the beginning and the end, and we will try assigning a single item to a variable using the index.
+In this lesson, we will practice accessing list elements using the index from the beginning and the end, and we will try assigning a single item to a variable using the index.
 
 
 ## Try it out

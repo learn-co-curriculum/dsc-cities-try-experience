@@ -1,6 +1,6 @@
 # Python Data Types
 
-## Objectives
+## Objectives for this lesson
 
 ***
 
@@ -15,15 +15,15 @@ By the end of this lesson, you will be able to:
 
 ***
 
-While the focus of this module is the `list` data type, in this lesson we will take a brief look at the different types of data that can make up a list. We will learn about the differences and some of the characteristics of these types of data. In this lesson we will simply introduce the different data types but we will dive deeper into each one as we begin to introduce each one individually.
+While the focus of this module is the `list` data type, in this lesson we will take a brief look at the different types of data that can make up a list. We will learn about the differences and some of the characteristics of these types of data. In this lesson we will simply introduce the different data types but we will dive deeper into each one as they are introduced in the following lessons.
 
-## The string data type
+## The `str` data type
 
 ***
 
-The first type of data we will look at is the **string** or `str`. A lot of information in the world is in the form of text. To capture this information and operate on it in Python we take this text and make it into the **string** data type.  
+The first type of data we will look at is the **string** or `str`. A lot of information in the world is in the form of text. To capture this information and operate on it in Python we take this text and make it into the `str` data type. Let's take a look at how we can do this in Python. 
 
-Below, we have the name of a city. By putting double quotes ("") or single quotes ('') around the name, we create a **string**. For the name *Buenos Aires* It would look like this:  
+Below, we have the name of a city. By putting double quotes ("") or single quotes ('') around the name, we create a **string**. If we wanted to create a `str` from the city name *Buenos Aires* in Python, it would look like this:  
 
 ```
 "Buenos Aires"
@@ -38,13 +38,13 @@ When programmers say string, what they mean is text. When programmers say data t
 "My favorite city to visit is Juno, Alaska"
 ```
 
-## Integer `int`
+## The `int` data type
 
 ***
 
-In our Data Science program, you will certainly be using numbers in many different ways during your journey, and the **integer** or `int` is one form of number we use in python. 
+In our Data Science program, you will certainly be using numbers in many different ways during your journey, and the **integer** or `int` is one type of number we use in Python. 
 
-An integer is simply a whole number, it can be positive or negative but it is a whole number without a decimal point.  When we use integers in Python it is important to note that any mathmatical operation with intgers will only return integers. Examples of integers are:
+An `int` is simply a whole number, it can be positive or negative but it is a whole number without a decimal point.  When we use integers in Python it is important to note that any mathematical operation with intgers will only return integers. Examples of `int` are:
 
 ```
 73
@@ -53,7 +53,7 @@ An integer is simply a whole number, it can be positive or negative but it is a 
 0
 ```
 
-Unlike a **string**, the **integer** or `int` data type does not need quotes around it.  If it is enclosed in quotes, it becomes a **string** and it cannot be used in mathematical operations unless it is converted back to a float.
+Unlike a `str`, the `int` data type does not need quotes around it.  If it is enclosed in quotes, it becomes a `str` and it cannot be used in mathematical operations, however, if necessary a `str` can be converted to a `int`.
 
 ## The float data type
 
