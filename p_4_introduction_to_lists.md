@@ -11,7 +11,7 @@
 ### Creating a list 
 ***
 
-Now that you have been introduced to some different types of data used in Python, in this module we will focus on one very useful data type, the `list`.  A `list` is a form of a collection, and a collection is just a way of grouping data together and lists certainly accomplish this.  
+Now that you have been introduced to some different types of data used in Python, in this module we will focus on one very useful **compound data type**, the `list`.  A `list` is a form of a collection, and a collection is just a way of grouping data together and lists certainly accomplish this.  
 
 For example, let's consider the top cities for travel according to the magazine *Travel and Leisure*. Below is how we are used to seeing a list of travel locations in a document or on a website.
 
@@ -36,9 +36,9 @@ Here is what that list looks like as a Python `list`:
 ```
 
 
-We indicate that we are initializing a `list` with an opening bracket, `[`, and we end the list with a closing bracket `]`. We separate each list item, also called an element, with a comma `,`. The components of a list can be any data type or any combination of data types.
+You can indicate that you are initializing a `list` with an opening bracket, `[`, and end the list with a closing bracket `]`. Each list item, also called an element, is separated with a comma `,`. The components of a list can be any data type or any combination of data types.
 
-In the format above, a `list` is not very useful, but we can make it useful. We can, of course, declare a variable and assign our list to it, so that we can name it and later retrieve the list and reference it's contents.  
+In the format above, a `list` is not very useful, but we can make it useful. To retrieve your list later, you can **declare a variable** and assign our list to it, so that we can name it and later retrieve the list and reference it's contents.  
 
 In the code block below, we are assigning our list of cities to the variable`top_travel_cities`.
 
@@ -46,11 +46,11 @@ In the code block below, we are assigning our list of cities to the variable`top
 top_travel_cities = ['Solta', 'Greenville', 'Buenos Aires', 'Los Cabos', 'Walla Walla Valley', 'Marakesh', 'Albuquerque', 'Archipelago Sea', 'Iguazu Falls', 'Salina Island', 'Toronto', 'Pyeongchang']
 ```
 
-If you type the code above into a python compiler, the information in the list will be stored in memory and you will be able to recall it or reference it simply by using the variable name `top_travel_cities`.  After assigning the list to the variable name, if you were to enter the variable name, `top_travel_cities`, into the code compiler, you will get the cell below as your output.
+If you type the code above into a python compiler, the information in the list will be stored in memory and you will be able to recall it or reference it simply by using the variable name `top_travel_cities`.  After assigning the list to the variable name, if you enter the variable name, `top_travel_cities`, into the code compiler, you will get the cell below as your output.
 
 `['Solta', 'Greenville', 'Buenos Aires', 'Los Cabos', 'Walla Walla Valley', 'Marakesh', 'Albuquerque', 'Archipelago Sea', 'Iguazu Falls', 'Salina Island', 'Toronto', 'Pyeongchang']`
 
 ## Recap
 ***
-Great, now that we have an idea of how to create a list and assign it to a variable, we can practice it ourselves and apply what we have learned. In the next lesson we will have an opportunity to do just thatm using our interactive code console. Let's go!
+Great, now that you have an idea of how to create a list and assign it to a variable, we can practice it ourselves and apply what we have learned. In the next lesson you will have an opportunity to do just that, using the interactive code console. Let's go!
 

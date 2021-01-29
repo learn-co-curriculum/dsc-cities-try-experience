@@ -6,7 +6,7 @@
 
 ***
 
-Now we know how to select multiple items from a list let's use what we have learned and answer the questions below.  If you are having trouble with any of these questions, try reviewing the previous lesson.
+Now you know how to select multiple items from a list, let's use what you've learned and answer the questions below. If you're having trouble with any of these questions, try reviewing the previous lesson.
 
 ### Question 1 - 
 ***

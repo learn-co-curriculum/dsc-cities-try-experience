@@ -1,12 +1,12 @@
 # Top travel cities
 
-## Expoloring Lists with Travel Cities  
+## Exploring Lists with Travel Cities  
 
 ***
 
-As we already know from living in the digital age, programming is a powerful tool for answering questions about data. It allows us to collect, clean up and format our data and then perform calculations on that data. Much of the digital information we encounter is in the form of text. We ask questions with text and get answers in text. Maybe you have had someone ask you what your top 10 favorite restaurants were?  How about cars, or motorcycles?  The answer you give to this question is in text, and the best way for you to format your answer is in the form of a list.  These top 10 lists are all organized in an ordered list of text items.  
+As you already know from living in the digital age, programming is a very powerful tool for answering questions about data. It allows you to collect, clean and format data and then perform calculations on that data. Much of the digital information is in the form of _text_. You can ask questions with text and get answers in text. Maybe you have someone ask you what your top 10 favorite restaurants are?  How about cars, or motorcycles?  The answer you give to this question is in _text_, and if you were to try to store this information using a programming language (say, Python), the best way for you to format your answer is in the form of a _list_.  These top 10 lists are all organized in an ordered list of text items. If this doesn't make sense yet, don't worry, you'll learn all about it in this short course!
 
-In this module we will explore how Python can help us to organize a list and help us to access different components of the list using different criteria. We will explore the characterictics of the **list** data type using a list of top travel cities from the popular magazine *Travel and Leisure*.  After we have explored the **list** data type, we will put our new found knowledge into practice and map out these top cities on a map. 
+In this short course lesson, you will explore how Python can help us to organize a list and help us to access different components of the list using different criteria. We will explore the characterictics of the `list` data type using a list of top travel cities from the popular magazine *Travel and Leisure*.  After you have explored the `list` data type, you will put your new knowledge into practice and map out these top cities on a map. 
 
 ## Objectives of this module
 
@@ -25,4 +25,5 @@ In this module we will explore how Python can help us to organize a list and hel
 
 ***
 
-We will be getting a good look at the **list** data type in this module, but first, we will take a brief look into the data types that can make up a **list**.
+
+In this course, you'll be learning about the `list` data type. Before going there, let's take a brief look into the data types that can make up a **list**.

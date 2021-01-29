@@ -7,7 +7,7 @@
 * Practice testing the data dype of data
 * Use the `type()` function
 
-Now that we have learned about the different types of data and how to check what type of data we are working with, let's take this chance to practice using this new knowledge.
+Now that you have learned about the different types of data and how to check what type of data we are working with, let's take this chance to practice using this new knowledge.
 
 ## Interactive code console
 
@@ -50,4 +50,4 @@ Pass the above variable names as an argument to the `type()` function one at a t
 
 ***
 
-Now that we understand how to use the `type()` function and check the type of data we are working with, we can use this data to create a **list**. 
+Now that you understand how to use the `type()` function and check the type of data you are working with, you can use this data to create a **compound data type**: a **list**. 

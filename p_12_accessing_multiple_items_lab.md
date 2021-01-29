@@ -12,7 +12,7 @@
 
 ***
 
-In this lesson we will practice slicing elements of a list.  In the code console below, we have loaded the list `top_travel_cities` for you.  We will use slicing to select the the desired sections of the list as described in the instructions below.
+In this lesson you will practice slicing elements of a list.  In the code console below, we have loaded the list `top_travel_cities` for you. You will use slicing to select the the desired sections of the list as described in the instructions below.
 
 ## Try it out
 
@@ -34,7 +34,7 @@ print(top_travel_cities[3:7])
 
 ***
 
-In this section we will slice the original list into separate lists according to some additional criteria.  We have added the country for each city so we can group them according to their continents.  
+In this section you will learn how to slice the original list into separate lists according to some additional criteria.  We have added the country for each city so we can group them according to their continents.  
 
 In the code console below, use slicing to create lists and set them equal to the appropriate variables as shown in the cell below:
 
@@ -53,6 +53,6 @@ asia = ['Marakesh, Morocco', 'Pyeongchang, South Korea']
 
 ***
 
-We now have a good understanding of the basics of a list and how to access the items in it, let's look deeper into how to manipulate a list by adding, removing and changing the items.
+You now have a good understanding of the basics of a list and how to access the items in it, let's look deeper into how to manipulate a list by adding, removing and changing the items.
 
 

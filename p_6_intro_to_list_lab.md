@@ -4,7 +4,7 @@
 
 ***
 
-* In this lab, we will practice what we have learned about lists using an interactive code console.
+* In this lab, you will practice what you've learned about lists using an interactive code console.
 
 ## Try it out
 
@@ -21,4 +21,4 @@ In the code console below, we have declared a variable, `top_travel_cities` and 
 
 ***
 
-Great! Now that we have seen how a list can be created and stored, let's look at how we can access the elements of the list so we can use it.
+Great! Now that you have seen how a list can be created and stored, let's look at how you can access the elements of the list so you can use it.
