@@ -1,6 +1,6 @@
 # Useful List Tools - Lab
 
-## More list tools - Lab
+## More List tools - Lab
 
 ***
 
@@ -37,8 +37,8 @@ The ability to get a list of the individual, or unique elements in a list is ver
 
 ***
 
-In the code console below, pass our list name `top_travel_cities` to the `set()` function and assign it to the variable `top_cities_set`
->**Level up** - try adding more duplicates to the list to see if it affects the outcome of this process. Check the data type of each variable and try to change the set back to a list so it is easier for us to work with.
+In the code console below, pass the list name `top_travel_cities` to the `set()` function and assign it to the variable `top_cities_set`
+>**Level up** - try adding more duplicates to the list to see if it affects the outcome of this process. Check the data type of each variable and try to change the set back to a list so it is easier to work with.
 
 <iframe frameborder="0" width="100%" height="700" src="https://repl.it/@DSExperience/CitiesTry8?lite=true"></iframe>
 
@@ -46,5 +46,4 @@ In the code console below, pass our list name `top_travel_cities` to the `set()`
 
 ***
 
-In this lesson we used the `len()` function to count the elements in our list.  We also used the `set()` function to get a set of the unique values in the list and then we were able to convert the set back to a list to make it better for our use.
-
+In this lesson, you used the `len()` function to count the elements in the list.  You also used the `set()` function to get a set of the unique values in the list and converted the set back to a list to make it easier to use.
