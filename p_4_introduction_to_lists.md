@@ -36,9 +36,9 @@ Here is what that list looks like as a Python `list`:
 ```
 
 
-You can indicate that you are initializing a `list` with an opening bracket, `[`, and end the list with a closing bracket `]`. Each list item, also called an element, is separated with a comma `,`. The components of a list can be any data type or any combination of data types.
+You can indicate that you are initializing a `list` with an opening bracket, `[`, and end the list with a closing bracket `]`. Each list item, also called an element, is separated with a comma `,`. The components of a list can be any data type or any combination of data types, in this example each element is a string representing a city name.
 
-In the format above, a `list` is not very useful, but we can make it useful. To retrieve your list later, you can **declare a variable** and assign our list to it, so that we can name it and later retrieve the list and reference it's contents.  
+In the format above, a `list` is not very useful, but you can make it useful. To retrieve your list later, you can **declare a variable** and assign our list to it, so that you can name it and later retrieve the list and reference it's contents. It is important to note the difference between a string and a variable.  A string is indicated by text surrounded by single or double quotes, if you wish to reference a variable, you simply type it without any quotes to indicate to Python that you want the value associated with the name you typed. 
 
 In the code block below, we are assigning our list of cities to the variable`top_travel_cities`.
 

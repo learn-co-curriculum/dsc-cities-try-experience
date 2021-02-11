@@ -9,6 +9,7 @@ By the end of this lesson, you will be able to:
 * Identify the type of data
 * Identify a string
 * Identify an integer
+* Identify a float
 * Identify a boolean
 
 ## Different data types
@@ -23,7 +24,7 @@ While the focus of this short course is the `list` data type, in this lesson we 
 
 The first type of data is the **string** or `str`. A lot of information in the world is in the form of text. To capture this information and operate on it in Python we take this text and make it into the `str` data type. Let's take a look at how this can be done in Python. 
 
-Below, you can see name of a city. By putting double quotes ("") or single quotes ('') around the name, we create a **string**. If you wanted to create a `str` from the city name *Buenos Aires* in Python, it would look like this:  
+Below, you can see name of a city. By putting double quotes ("") or single quotes ('') around the name, we create a **string**. Double quotes ("") or single quotes ('') can be used interchangeably, but we will cover that a little later in the course.  If you wanted to create a `str` from the city name *Buenos Aires* in Python, it would look like this:  
 
 ```
 "Buenos Aires"
@@ -107,6 +108,6 @@ type(city)
 
 ***
 
-Excellent, now that you have a little understanding of a few of the types of data python uses, we can begin to put it to work and see how we can use this information.
+Excellent, now that you have a little understanding of a few of the types of data Python uses, we can begin to put it to work and see how we can use this information.
 
 
