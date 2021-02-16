@@ -54,3 +54,8 @@ Type the function below and insert each one of the above variables one at a time
 ***
 
 Now that you understand how to use the `type()` function and check the type of data you are working with, you can use this data to create a **compound data type**: a **list**. 
+
+## Enroll Now!
+If you are intrigued be data and the tools used to manipulate, analyze, and visualize data, the Data Science Boot Camp at Flatiron School could be for you!  Click <a href="">HERE</a> to enroll now.
+
+If you would like to  learn more about the Data Science Bootcamp at Flatiron School, click <a href="">HERE</a> to learn more.
