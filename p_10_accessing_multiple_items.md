@@ -5,7 +5,7 @@
 ***
 
 * Access multiple items of a list
-* Slicing with indicies
+* Slicing with indices
 
 ## Slicing - **Start**
 
@@ -31,13 +31,13 @@ From this first example, it is difficult to know if the second number represents
 ['Solta', 'Greenville', 'Buenos Aires', 'Los Cabos', 'Walla Walla Valley', 'Marakesh', 'Albuquerque', 'Archipelago Sea', 'Iguazu Falls', 'Salina Island', 'Toronto', 'Pyeongchang']
 ```
 
-Let's take a look at a different slice and see how you can slice out two elements from the somewhere in the list.  If you want to slice two items, like `'Walla Walla Valley', 'Marakesh'` we can do it like this:
+Let's take a look at a different slice and see how you can slice out two elements from somewhere in the list.  If you want to slice two items, like `'Walla Walla Valley', 'Marakesh'` we can do it like this:
 
 ```python
 top_travel_cities[4:6]
 ```
 
-Ok, so from this example, it is aparent that second number is not representing the number of elements that we wanted returned.  Instead it must be the index at which we **stop** our selection of elements. In this case, you would say that the **stop** index is non-inclusive. So if you want to slice out elements 4 through 6, `'Walla Walla Valley', 'Marakesh', 'Albuquerque'` you need to **start** before `4` and **stop** before `7`, so you can code it like this:
+Ok, so from this example, it is apparent that second number is not representing the number of elements that we wanted returned.  Instead it must be the index at which we **stop** our selection of elements. In this case, you would say that the **stop** index is non-inclusive. So if you want to slice out elements 4 through 6, `'Walla Walla Valley', 'Marakesh', 'Albuquerque'` you need to **start** before `4` and **stop** before `7`, so you can code it like this:
 
 
 ```python

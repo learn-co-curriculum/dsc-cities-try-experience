@@ -11,8 +11,9 @@
 ***
 
 In the code console below, we have declared a variable, `top_travel_cities` and set it equal to a list of the top travel cities. Try typing the variable name so you can see the output.  
-- <p>Remember to click the <mark style="color:green; background:none; font-weight:bold">green</mark> arrow to initialize the console.</p> 
-> **Level up:** Try creating your own list.  create a list of names or places and assign them to a variable.
+
+<p>Remember to click the <mark style="color:green; background:none; font-weight:bold">green</mark> arrow to initialize the console.</p> 
+> **Level up:** Try creating your own list.  Create a list of names or places and assign them to a variable.
 
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@DSExperience/CitiesTry1?lite=true"></iframe>

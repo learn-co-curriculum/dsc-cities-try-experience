@@ -53,6 +53,6 @@ asia = ['Marakesh, Morocco', 'Pyeongchang, South Korea']
 
 ***
 
-You now have a good understanding of the basics of a list and how to access the items in it, let's look deeper into how to manipulate a list by adding, removing and changing the items.
+You now have a good understanding of the basics of a list and how to access the items in it. Let's look deeper into how to manipulate a list by adding, removing and changing the items.
 
 

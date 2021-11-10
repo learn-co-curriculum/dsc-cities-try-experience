@@ -4,7 +4,7 @@
 
 ***
 
-* Practice testing the data dype of data
+* Practice testing the data type of data
 * Use the `type()` function
 
 Now that you have learned about the different types of data and how to check what type of data we are working with, let's take this chance to practice using this new knowledge.
@@ -39,12 +39,13 @@ item_4 = (7 == 4)
 item_5 = (4 >= 7)
 
 ```
-To use the `type()` function you simply type the name of the fundtion with parentheses `type()` then the item you want to know the data type of is inserted into the parentheses.  
-for example, if you wanted to know the data type of the variable `item_1` you would type the following code:
-`type(item_1)`
+To use the `type()` function you simply type the name of the function with parentheses `type()` then the item you want to know the data type of is inserted into the parentheses.  
+For example, if you wanted to know the data type of the variable `item_1` you would type the following code:
+`type(item_1)`.
+
 Type the function below and insert each one of the above variables one at a time in the code console below and take note of the result.  
 
-- <p>Remember to click the <mark style="color:green; background:none; font-weight:bold">green</mark> arrow to initialize the console.</p>  
+<p>Remember to click the <mark style="color:green; background:none; font-weight:bold">green</mark> arrow to initialize the console.</p>  
 >**Level up** - Try entering your own data as an argument to the `type()` function.  Try assigning the data to a variable, and then passing it to the `type()` function.
 
 <iframe frameborder="0" width="100%" height="800" src="https://repl.it/@DSExperience/CitiesTry3?lite=true"></iframe>

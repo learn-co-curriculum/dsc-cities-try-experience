@@ -12,7 +12,7 @@
 
 ***
 
-Now that our `top_travel_cities` list contains multiple elements we can dive a little deeper into the traits of a list. When we write list for ourselves, we normally list the elements in numerical order with a number representing the items rank in the list, this helps us to keep the list ordered like this:
+Now that our `top_travel_cities` list contains multiple elements we can dive a little deeper into the traits of a list. When we write a list for ourselves, we normally list the elements in numerical order with a number representing the items rank in the list. This helps us to keep the list ordered like this:
 
 1. Solta
 2. Greenville
@@ -45,7 +45,7 @@ top_travel_cities[3]
 
 ***
 
-Great, now you know how to access one item in the list using it's index, but how would we access the last element? What about the third from the last element?   
+Great, now you know how to access one item in the list using its index, but how would we access the last element? What about the third from the last element?   
 
 If you wanted to select the last element, `Peyongchang`, you could count all of the elements in the list, and in our list `Pyeongchang` would just be one less than the length of the list.  
 
@@ -63,7 +63,7 @@ And you can move back as many as you want. To access 'Toronto', you would do thi
 top_travel_cities[-2]
 ```
 
-At times, you may want to access an element from a list and use it by itself. To do that, you can always set an element of your list `top_travel_cities` equal to a variable. If you wanted to assign `'Toronto' to a variable `top_canadian_city`, you would do it like this:
+At times, you may want to access an element from a list and use it by itself. To do that, you can always set an element of your list `top_travel_cities` equal to a variable. If you wanted to assign `'Toronto'` to a variable `top_canadian_city`, you would do it like this:
 
 
 ```python

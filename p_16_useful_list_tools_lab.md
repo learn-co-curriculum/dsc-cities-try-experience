@@ -31,7 +31,7 @@ In the code console below, check the length of the list using the `len()` functi
 
 ***
 
-The ability to get a list of the individual, or unique elements in a list is very useful.  In our list, we have mistakenly added some duplicates.  Let's get a set of the unique elements in our list so we can use it to determine which elements have duplicates.  Let's assign our new set of unique destinations to a variable, `top_cities_set` using the `set()` function.
+The ability to get a list of the individual or unique elements in a list is very useful.  In our list, we have mistakenly added some duplicates.  Let's get a set of the unique elements in our list so we can use it to determine which elements have duplicates.  Let's assign our new set of unique destinations to a variable, `top_cities_set` using the `set()` function.
 
 ## Try it out
 

@@ -91,7 +91,7 @@ It's fairly rare for programmers to explicitly write the word True or False. Ins
 
 ***
 
-Now that we know that there are many different data types, lets explore one way we can check the type of data you have. You can check the data type with the `type()` function. To check the type of data, you can simply pass the data as an argument to the `type()` function. For example, if you wanted to find out what type of data `Toronto` is, you could simply do this:
+Now that we know that there are many different data types, let's explore one way we can check the type of data you have. You can check the data type with the `type()` function. To check the type of data, you can simply pass the data as an argument to the `type()` function. For example, if you wanted to find out what type of data `Toronto` is, you could simply do this:
 
 ```
 type('Toronto')

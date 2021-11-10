@@ -28,7 +28,7 @@ In the code console below, add the destination `'Wuhan, China'` to the list `top
 
 <iframe frameborder="0" width="100%" height="600" src="https://repl.it/@DSExperience/CitiesTry5?lite=true"></iframe>
 
-Great!! Now that you can add elements to alist, let's take a look at how we remove items.
+Great!! Now that you can add elements to a list, let's take a look at how we remove items.
 
 ## Removing with the `.pop()` method
 
@@ -49,4 +49,4 @@ In the code console below, we have loaded the list referenced above with the dup
 
 ***
 
-Great! you are now able to add and remove items from a list when this list needs to be updated.  Let's take a look at some other tools that are helpful when working with lists.
+Great! You are now able to add and remove items from a list when this list needs to be updated.  Let's take a look at some other tools that are helpful when working with lists.
