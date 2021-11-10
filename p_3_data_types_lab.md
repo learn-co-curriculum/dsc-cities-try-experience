@@ -4,7 +4,7 @@
 
 ***
 
-* Practice testing the data dype of data
+* Practice testing the data type of data
 * Use the `type()` function
 
 Now that you have learned about the different types of data and how to check what type of data we are working with, let's take this chance to practice using this new knowledge.
