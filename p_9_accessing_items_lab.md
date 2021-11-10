@@ -21,7 +21,7 @@ In this lesson, you will practice accessing list elements using the index from t
 ***
 
 Run the code console below to see the result of printing the item referenced by this line of code `top_travel_cities[0]`. The list `top_travel_cities` is defined for you.
->**Level Up** - try to access the others youself by using the same command but replacing the index with any other number between 0 and 11. 
+>**Level Up** - try to access the others yourself by using the same command but replacing the index with any other number between 0 and 11. 
 
 <iframe frameborder="0" width="100%" height="800" src="https://repl.it/@DSExperience/CitiesTry2?lite=true"></iframe>
 
